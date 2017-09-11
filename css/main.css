@@ -1,0 +1,75 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*Large Background Image*/
+body {
+    background: url(../img/hero.jpg) no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-flex-flow: row wrap;
+    flex-flow: column;
+    position: fixed;
+}
+
+#content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: #084887;
+    color: #f7f5fb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    border-radius: 10px;
+    padding: 30px 30px;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 4em;
+}
+
+#content .fa {
+    margin-right: 20px;
+    color: #f7f5fb;
+    font-size: 1.25em;
+}
+
+#content ul {
+    list-style: none;
+    text-align: center;
+}
+
+#content ul li {
+    display: inline-block;
+}
+
+#content p {
+    color: #f7f5fb;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#content p .fa {
+    color: #a53037;
+    margin-right: 0px;
+}
